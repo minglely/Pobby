@@ -3,13 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16FC9DEE90C830ED272B6CA8 /* Pods_PobbyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C979E0ACAC93C1F0A7196511 /* Pods_PobbyTests.framework */; };
+		3CEDD16ED2CB6A6825BD65AE /* Pods_Pobby_PobbyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6634C39864AE4A39A78B23 /* Pods_Pobby_PobbyUITests.framework */; };
+		DBE1888B5B8DF9FFE6CC6079 /* Pods_Pobby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B27D566EE06015F64673CE5 /* Pods_Pobby.framework */; };
+		FC02B26B2547EEA200F494C1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC02B26A2547EEA200F494C1 /* WelcomeViewController.swift */; };
+		FC0D5F472548582F003EEEF0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D5F462548582F003EEEF0 /* LoginViewController.swift */; };
+		FC0D5F5625486EB1003EEEF0 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D5F5525486EB1003EEEF0 /* FirebaseAuthManager.swift */; };
+		FC3804F92539B3F4009082F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC3804F82539B3F4009082F3 /* GoogleService-Info.plist */; };
+		FC7A1EB3255144AB009A47C7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A1EB2255144AB009A47C7 /* HomeViewController.swift */; };
+		FC7A1EBC25514C4F009A47C7 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A1EBB25514C4F009A47C7 /* MypageViewController.swift */; };
+		FC7A1EC7255151F7009A47C7 /* SetProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A1EC6255151F7009A47C7 /* SetProfileViewController.swift */; };
+		FC7A1ECC25515222009A47C7 /* SetAdressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A1ECB25515222009A47C7 /* SetAdressViewController.swift */; };
+		FC961BCF254BBAA6006F1AE8 /* Cafe24Ohsquareair.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC961BCE254BB97C006F1AE8 /* Cafe24Ohsquareair.ttf */; };
+		FC961BD3254BBAA8006F1AE8 /* NanumSquareRoundB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC961BCB254BB93A006F1AE8 /* NanumSquareRoundB.ttf */; };
+		FC961BD4254BBAAA006F1AE8 /* NanumSquareRoundEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC961BCC254BB93A006F1AE8 /* NanumSquareRoundEB.ttf */; };
+		FC961BD8254BBAAC006F1AE8 /* NanumSquareRoundL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC961BCA254BB93A006F1AE8 /* NanumSquareRoundL.ttf */; };
+		FC961BDC254BBAAE006F1AE8 /* NanumSquareRoundR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC961BCD254BB93A006F1AE8 /* NanumSquareRoundR.ttf */; };
+		FC961BEC254C1DBD006F1AE8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC961BEB254C1DBD006F1AE8 /* SignupViewController.swift */; };
+		FCC2D9FD254FAD02006E5ABD /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D9FC254FAD02006E5ABD /* UserProfile.swift */; };
 		FCEF1F9E2539B2A8009101C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEF1F9D2539B2A8009101C0 /* AppDelegate.swift */; };
 		FCEF1FA02539B2A8009101C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEF1F9F2539B2A8009101C0 /* SceneDelegate.swift */; };
-		FCEF1FA22539B2A8009101C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEF1FA12539B2A8009101C0 /* ViewController.swift */; };
+		FCEF1FA22539B2A8009101C0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEF1FA12539B2A8009101C0 /* TabBarViewController.swift */; };
 		FCEF1FA52539B2A8009101C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEF1FA32539B2A8009101C0 /* Main.storyboard */; };
 		FCEF1FA72539B2A8009101C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEF1FA62539B2A8009101C0 /* Assets.xcassets */; };
 		FCEF1FAA2539B2A8009101C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEF1FA82539B2A8009101C0 /* LaunchScreen.storyboard */; };
@@ -35,10 +53,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		181F27DFF834299C22B2F766 /* Pods-Pobby-PobbyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pobby-PobbyUITests.release.xcconfig"; path = "Target Support Files/Pods-Pobby-PobbyUITests/Pods-Pobby-PobbyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4EA654A1E54DC3D487FA5E1D /* Pods-Pobby-PobbyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pobby-PobbyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pobby-PobbyUITests/Pods-Pobby-PobbyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A36A876DC1A6D658459E6BC /* Pods-Pobby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pobby.debug.xcconfig"; path = "Target Support Files/Pods-Pobby/Pods-Pobby.debug.xcconfig"; sourceTree = "<group>"; };
+		5B27D566EE06015F64673CE5 /* Pods_Pobby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pobby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6634C39864AE4A39A78B23 /* Pods_Pobby_PobbyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pobby_PobbyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4A3A7E78427827A2B317BC /* Pods-PobbyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PobbyTests.release.xcconfig"; path = "Target Support Files/Pods-PobbyTests/Pods-PobbyTests.release.xcconfig"; sourceTree = "<group>"; };
+		C979E0ACAC93C1F0A7196511 /* Pods_PobbyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PobbyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF77FD34CD63ED3379155335 /* Pods-PobbyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PobbyTests.debug.xcconfig"; path = "Target Support Files/Pods-PobbyTests/Pods-PobbyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FABF9DBC613654D79B0FF810 /* Pods-Pobby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pobby.release.xcconfig"; path = "Target Support Files/Pods-Pobby/Pods-Pobby.release.xcconfig"; sourceTree = "<group>"; };
+		FC02B26A2547EEA200F494C1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FC0D5F462548582F003EEEF0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FC0D5F5525486EB1003EEEF0 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirebaseAuthManager.swift; path = Pobby/Model/FirebaseAuthManager.swift; sourceTree = SOURCE_ROOT; };
+		FC3804F82539B3F4009082F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FC7A1EB2255144AB009A47C7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FC7A1EBB25514C4F009A47C7 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
+		FC7A1EC6255151F7009A47C7 /* SetProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetProfileViewController.swift; sourceTree = "<group>"; };
+		FC7A1ECB25515222009A47C7 /* SetAdressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAdressViewController.swift; sourceTree = "<group>"; };
+		FC961BCA254BB93A006F1AE8 /* NanumSquareRoundL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundL.ttf; sourceTree = "<group>"; };
+		FC961BCB254BB93A006F1AE8 /* NanumSquareRoundB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundB.ttf; sourceTree = "<group>"; };
+		FC961BCC254BB93A006F1AE8 /* NanumSquareRoundEB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundEB.ttf; sourceTree = "<group>"; };
+		FC961BCD254BB93A006F1AE8 /* NanumSquareRoundR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundR.ttf; sourceTree = "<group>"; };
+		FC961BCE254BB97C006F1AE8 /* Cafe24Ohsquareair.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cafe24Ohsquareair.ttf; sourceTree = "<group>"; };
+		FC961BEB254C1DBD006F1AE8 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		FCC2D9FC254FAD02006E5ABD /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		FCEF1F9A2539B2A8009101C0 /* Pobby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pobby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEF1F9D2539B2A8009101C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCEF1F9F2539B2A8009101C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FCEF1FA12539B2A8009101C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCEF1FA12539B2A8009101C0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		FCEF1FA42539B2A8009101C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCEF1FA62539B2A8009101C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCEF1FA92539B2A8009101C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE1888B5B8DF9FFE6CC6079 /* Pods_Pobby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16FC9DEE90C830ED272B6CA8 /* Pods_PobbyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +114,96 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CEDD16ED2CB6A6825BD65AE /* Pods_Pobby_PobbyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08227ED3E88056347DB3755E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B27D566EE06015F64673CE5 /* Pods_Pobby.framework */,
+				8D6634C39864AE4A39A78B23 /* Pods_Pobby_PobbyUITests.framework */,
+				C979E0ACAC93C1F0A7196511 /* Pods_PobbyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		944354F936C16BEAFC771986 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A36A876DC1A6D658459E6BC /* Pods-Pobby.debug.xcconfig */,
+				FABF9DBC613654D79B0FF810 /* Pods-Pobby.release.xcconfig */,
+				4EA654A1E54DC3D487FA5E1D /* Pods-Pobby-PobbyUITests.debug.xcconfig */,
+				181F27DFF834299C22B2F766 /* Pods-Pobby-PobbyUITests.release.xcconfig */,
+				DF77FD34CD63ED3379155335 /* Pods-PobbyTests.debug.xcconfig */,
+				BC4A3A7E78427827A2B317BC /* Pods-PobbyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC0D5F4B254863B8003EEEF0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC02B26A2547EEA200F494C1 /* WelcomeViewController.swift */,
+				FC12614825503F640032458A /* Signup */,
+				FC7A1EB025514435009A47C7 /* home */,
+				FC7A1EBA25514C36009A47C7 /* Mypage */,
+				FC0D5F462548582F003EEEF0 /* LoginViewController.swift */,
+				FCEF1FA12539B2A8009101C0 /* TabBarViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FC12614825503F640032458A /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				FC961BEB254C1DBD006F1AE8 /* SignupViewController.swift */,
+				FC7A1EC6255151F7009A47C7 /* SetProfileViewController.swift */,
+				FC7A1ECB25515222009A47C7 /* SetAdressViewController.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		FC7A1EB025514435009A47C7 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				FC7A1EB2255144AB009A47C7 /* HomeViewController.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		FC7A1EBA25514C36009A47C7 /* Mypage */ = {
+			isa = PBXGroup;
+			children = (
+				FC7A1EBB25514C4F009A47C7 /* MypageViewController.swift */,
+			);
+			path = Mypage;
+			sourceTree = "<group>";
+		};
+		FC961BC9254BB835006F1AE8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FC961BCE254BB97C006F1AE8 /* Cafe24Ohsquareair.ttf */,
+				FC961BCB254BB93A006F1AE8 /* NanumSquareRoundB.ttf */,
+				FC961BCC254BB93A006F1AE8 /* NanumSquareRoundEB.ttf */,
+				FC961BCA254BB93A006F1AE8 /* NanumSquareRoundL.ttf */,
+				FC961BCD254BB93A006F1AE8 /* NanumSquareRoundR.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		FCC2D9FB254FACCD006E5ABD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCC2D9FC254FAD02006E5ABD /* UserProfile.swift */,
+				FC0D5F5525486EB1003EEEF0 /* FirebaseAuthManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FCEF1F912539B2A8009101C0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +211,8 @@
 				FCEF1FB32539B2A9009101C0 /* PobbyTests */,
 				FCEF1FBE2539B2A9009101C0 /* PobbyUITests */,
 				FCEF1F9B2539B2A8009101C0 /* Products */,
+				944354F936C16BEAFC771986 /* Pods */,
+				08227ED3E88056347DB3755E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +229,15 @@
 		FCEF1F9C2539B2A8009101C0 /* Pobby */ = {
 			isa = PBXGroup;
 			children = (
+				FCC2D9FB254FACCD006E5ABD /* Model */,
+				FC0D5F4B254863B8003EEEF0 /* ViewController */,
+				FC961BC9254BB835006F1AE8 /* Font */,
 				FCEF1F9D2539B2A8009101C0 /* AppDelegate.swift */,
 				FCEF1F9F2539B2A8009101C0 /* SceneDelegate.swift */,
-				FCEF1FA12539B2A8009101C0 /* ViewController.swift */,
 				FCEF1FA32539B2A8009101C0 /* Main.storyboard */,
 				FCEF1FA62539B2A8009101C0 /* Assets.xcassets */,
 				FCEF1FA82539B2A8009101C0 /* LaunchScreen.storyboard */,
+				FC3804F82539B3F4009082F3 /* GoogleService-Info.plist */,
 				FCEF1FAB2539B2A8009101C0 /* Info.plist */,
 			);
 			path = Pobby;
@@ -135,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCEF1FC42539B2A9009101C0 /* Build configuration list for PBXNativeTarget "Pobby" */;
 			buildPhases = (
+				90E818C2791094395784CA16 /* [CP] Check Pods Manifest.lock */,
 				FCEF1F962539B2A8009101C0 /* Sources */,
 				FCEF1F972539B2A8009101C0 /* Frameworks */,
 				FCEF1F982539B2A8009101C0 /* Resources */,
+				E68A0E52132E834453029BDF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +287,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCEF1FC72539B2A9009101C0 /* Build configuration list for PBXNativeTarget "PobbyTests" */;
 			buildPhases = (
+				0BBE9F39B999103B734C6A48 /* [CP] Check Pods Manifest.lock */,
 				FCEF1FAC2539B2A8009101C0 /* Sources */,
 				FCEF1FAD2539B2A8009101C0 /* Frameworks */,
 				FCEF1FAE2539B2A8009101C0 /* Resources */,
@@ -170,9 +306,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCEF1FCA2539B2A9009101C0 /* Build configuration list for PBXNativeTarget "PobbyUITests" */;
 			buildPhases = (
+				6B601013E8789CCA13B549B9 /* [CP] Check Pods Manifest.lock */,
 				FCEF1FB72539B2A9009101C0 /* Sources */,
 				FCEF1FB82539B2A9009101C0 /* Frameworks */,
 				FCEF1FB92539B2A9009101C0 /* Resources */,
+				F125786F50D1318E1C4947FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +369,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC961BCF254BBAA6006F1AE8 /* Cafe24Ohsquareair.ttf in Resources */,
+				FC961BD4254BBAAA006F1AE8 /* NanumSquareRoundEB.ttf in Resources */,
 				FCEF1FAA2539B2A8009101C0 /* LaunchScreen.storyboard in Resources */,
+				FC3804F92539B3F4009082F3 /* GoogleService-Info.plist in Resources */,
 				FCEF1FA72539B2A8009101C0 /* Assets.xcassets in Resources */,
+				FC961BDC254BBAAE006F1AE8 /* NanumSquareRoundR.ttf in Resources */,
+				FC961BD8254BBAAC006F1AE8 /* NanumSquareRoundL.ttf in Resources */,
 				FCEF1FA52539B2A8009101C0 /* Main.storyboard in Resources */,
+				FC961BD3254BBAA8006F1AE8 /* NanumSquareRoundB.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +397,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BBE9F39B999103B734C6A48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PobbyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B601013E8789CCA13B549B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pobby-PobbyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E818C2791094395784CA16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pobby-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E68A0E52132E834453029BDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pobby/Pods-Pobby-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pobby/Pods-Pobby-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pobby/Pods-Pobby-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F125786F50D1318E1C4947FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pobby-PobbyUITests/Pods-Pobby-PobbyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pobby-PobbyUITests/Pods-Pobby-PobbyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pobby-PobbyUITests/Pods-Pobby-PobbyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FCEF1F962539B2A8009101C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCEF1FA22539B2A8009101C0 /* ViewController.swift in Sources */,
+				FC0D5F5625486EB1003EEEF0 /* FirebaseAuthManager.swift in Sources */,
+				FC961BEC254C1DBD006F1AE8 /* SignupViewController.swift in Sources */,
+				FCEF1FA22539B2A8009101C0 /* TabBarViewController.swift in Sources */,
+				FC02B26B2547EEA200F494C1 /* WelcomeViewController.swift in Sources */,
+				FC7A1EB3255144AB009A47C7 /* HomeViewController.swift in Sources */,
+				FCC2D9FD254FAD02006E5ABD /* UserProfile.swift in Sources */,
 				FCEF1F9E2539B2A8009101C0 /* AppDelegate.swift in Sources */,
+				FC0D5F472548582F003EEEF0 /* LoginViewController.swift in Sources */,
+				FC7A1EC7255151F7009A47C7 /* SetProfileViewController.swift in Sources */,
+				FC7A1ECC25515222009A47C7 /* SetAdressViewController.swift in Sources */,
 				FCEF1FA02539B2A8009101C0 /* SceneDelegate.swift in Sources */,
+				FC7A1EBC25514C4F009A47C7 /* MypageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +689,7 @@
 		};
 		FCEF1FC52539B2A9009101C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A36A876DC1A6D658459E6BC /* Pods-Pobby.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +709,7 @@
 		};
 		FCEF1FC62539B2A9009101C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FABF9DBC613654D79B0FF810 /* Pods-Pobby.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +729,7 @@
 		};
 		FCEF1FC82539B2A9009101C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF77FD34CD63ED3379155335 /* Pods-PobbyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +752,7 @@
 		};
 		FCEF1FC92539B2A9009101C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC4A3A7E78427827A2B317BC /* Pods-PobbyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +775,7 @@
 		};
 		FCEF1FCB2539B2A9009101C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA654A1E54DC3D487FA5E1D /* Pods-Pobby-PobbyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +796,7 @@
 		};
 		FCEF1FCC2539B2A9009101C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 181F27DFF834299C22B2F766 /* Pods-Pobby-PobbyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

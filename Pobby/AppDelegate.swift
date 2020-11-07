@@ -6,14 +6,25 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseFirestore
+
 
 @main
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        FirebaseApp.configure()
+        
+        let db = Firestore.firestore()
+        print(db) // silence warning
+
+        Thread.sleep(forTimeInterval: 1.5) //스플래쉬 딜레이
+        
         return true
     }
 

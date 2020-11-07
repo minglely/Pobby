@@ -1,0 +1,6 @@
+framework module Pods_Pobby {
+  umbrella header "Pods-Pobby-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -18,6 +18,14 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Cafe24Ohsquareair</string>
+		<string>NanumSquareRoundB</string>
+		<string>NanumSquareRoundEB</string>
+		<string>NanumSquareRoundL</string>
+		<string>NanumSquareRoundR</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>
