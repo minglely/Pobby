@@ -22,5 +22,8 @@ target 'Pobby' do
   pod 'Firebase/Analytics'
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
+  pod 'FSPagerView'
+  pod 'DropDown'
+  pod 'AutoScrollCollectionView'
   
 end

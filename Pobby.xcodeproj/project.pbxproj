@@ -11,20 +11,41 @@
 		3CEDD16ED2CB6A6825BD65AE /* Pods_Pobby_PobbyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6634C39864AE4A39A78B23 /* Pods_Pobby_PobbyUITests.framework */; };
 		DBE1888B5B8DF9FFE6CC6079 /* Pods_Pobby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B27D566EE06015F64673CE5 /* Pods_Pobby.framework */; };
 		FC02B26B2547EEA200F494C1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC02B26A2547EEA200F494C1 /* WelcomeViewController.swift */; };
+		FC0951A9258F3555000C2905 /* boardDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0951A8258F3555000C2905 /* boardDetailVC.swift */; };
 		FC0D5F472548582F003EEEF0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D5F462548582F003EEEF0 /* LoginViewController.swift */; };
-		FC0D5F5625486EB1003EEEF0 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0D5F5525486EB1003EEEF0 /* FirebaseAuthManager.swift */; };
 		FC3804F92539B3F4009082F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC3804F82539B3F4009082F3 /* GoogleService-Info.plist */; };
+		FC571BA7259049240060F7BF /* insertboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC571BA6259049240060F7BF /* insertboardVC.swift */; };
+		FC6794B0257B262200407A00 /* CommunityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6794AF257B262200407A00 /* CommunityVC.swift */; };
+		FC6794DF257B392100407A00 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6794DA257B392100407A00 /* LoadingCell.xib */; };
+		FC6794E0257B392100407A00 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6794DB257B392100407A00 /* LoadingCell.swift */; };
+		FC6794E2257B392100407A00 /* TableViewItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6794DE257B392100407A00 /* TableViewItemCell.swift */; };
+		FC6DA5B2258D049B00C8A694 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DA5B1258D049B00C8A694 /* HomeModel.swift */; };
+		FC74F7E6255E4CE7000E989D /* PetitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74F7E5255E4CE7000E989D /* PetitionVC.swift */; };
+		FC74F7EB255E5498000E989D /* PetitionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74F7EA255E5498000E989D /* PetitionCell.swift */; };
+		FC74F7F1255E72BD000E989D /* PetitionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74F7F0255E72BD000E989D /* PetitionModel.swift */; };
+		FC74F7F9255E78BB000E989D /* WritePetitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74F7F8255E78BB000E989D /* WritePetitionVC.swift */; };
 		FC7A1EB3255144AB009A47C7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A1EB2255144AB009A47C7 /* HomeViewController.swift */; };
 		FC7A1EBC25514C4F009A47C7 /* MypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A1EBB25514C4F009A47C7 /* MypageViewController.swift */; };
 		FC7A1EC7255151F7009A47C7 /* SetProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A1EC6255151F7009A47C7 /* SetProfileViewController.swift */; };
-		FC7A1ECC25515222009A47C7 /* SetAdressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A1ECB25515222009A47C7 /* SetAdressViewController.swift */; };
+		FC7A1ECC25515222009A47C7 /* welcometopobbyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A1ECB25515222009A47C7 /* welcometopobbyVC.swift */; };
+		FC86A847256CCF0600D37C21 /* broadcastingCollectionVcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC86A846256CCF0600D37C21 /* broadcastingCollectionVcell.swift */; };
+		FC877BB525601F6B004BD7EB /* PetitionDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC877BB425601F6B004BD7EB /* PetitionDetailVC.swift */; };
 		FC961BCF254BBAA6006F1AE8 /* Cafe24Ohsquareair.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC961BCE254BB97C006F1AE8 /* Cafe24Ohsquareair.ttf */; };
 		FC961BD3254BBAA8006F1AE8 /* NanumSquareRoundB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC961BCB254BB93A006F1AE8 /* NanumSquareRoundB.ttf */; };
 		FC961BD4254BBAAA006F1AE8 /* NanumSquareRoundEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC961BCC254BB93A006F1AE8 /* NanumSquareRoundEB.ttf */; };
 		FC961BD8254BBAAC006F1AE8 /* NanumSquareRoundL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC961BCA254BB93A006F1AE8 /* NanumSquareRoundL.ttf */; };
 		FC961BDC254BBAAE006F1AE8 /* NanumSquareRoundR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC961BCD254BB93A006F1AE8 /* NanumSquareRoundR.ttf */; };
 		FC961BEC254C1DBD006F1AE8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC961BEB254C1DBD006F1AE8 /* SignupViewController.swift */; };
-		FCC2D9FD254FAD02006E5ABD /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D9FC254FAD02006E5ABD /* UserProfile.swift */; };
+		FC9B92A6258DBDCE00207DB8 /* boardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B92A5258DBDCE00207DB8 /* boardModel.swift */; };
+		FC9B92AE258DE3E900207DB8 /* ticketingDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B92AD258DE3E900207DB8 /* ticketingDetailVC.swift */; };
+		FC9B92B3258DEACD00207DB8 /* broadcastDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B92B2258DEACD00207DB8 /* broadcastDetailVC.swift */; };
+		FC9B92B8258DF2F400207DB8 /* signedPopUPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B92B7258DF2F400207DB8 /* signedPopUPVC.swift */; };
+		FC9B92DB258E19FB00207DB8 /* bestboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B92DA258E19FB00207DB8 /* bestboardCell.swift */; };
+		FC9B92E0258E1A1B00207DB8 /* bestpetitionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9B92DF258E1A1B00207DB8 /* bestpetitionCell.swift */; };
+		FCA27764255A81300042AB47 /* ticketingCollectionVcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA27763255A81300042AB47 /* ticketingCollectionVcell.swift */; };
+		FCC2D9FD254FAD02006E5ABD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2D9FC254FAD02006E5ABD /* User.swift */; };
+		FCC9C853257A573000A7B02C /* bannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC9C852257A573000A7B02C /* bannerCollectionViewCell.swift */; };
+		FCDBB20A258FBA3700AE453C /* commentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDBB209258FBA3700AE453C /* commentCell.swift */; };
 		FCEF1F9E2539B2A8009101C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEF1F9D2539B2A8009101C0 /* AppDelegate.swift */; };
 		FCEF1FA02539B2A8009101C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEF1F9F2539B2A8009101C0 /* SceneDelegate.swift */; };
 		FCEF1FA22539B2A8009101C0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEF1FA12539B2A8009101C0 /* TabBarViewController.swift */; };
@@ -33,6 +54,10 @@
 		FCEF1FAA2539B2A8009101C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEF1FA82539B2A8009101C0 /* LaunchScreen.storyboard */; };
 		FCEF1FB52539B2A9009101C0 /* PobbyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEF1FB42539B2A9009101C0 /* PobbyTests.swift */; };
 		FCEF1FC02539B2A9009101C0 /* PobbyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEF1FBF2539B2A9009101C0 /* PobbyUITests.swift */; };
+		FCF8C6702590C525009B290E /* myboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF8C66F2590C525009B290E /* myboardVC.swift */; };
+		FCF8C6752590C531009B290E /* mycommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF8C6742590C531009B290E /* mycommentVC.swift */; };
+		FCF8C6822590C9ED009B290E /* mycommnetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF8C6812590C9ED009B290E /* mycommnetCell.swift */; };
+		FCF8C6872590F354009B290E /* editProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF8C6862590F354009B290E /* editProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,20 +88,45 @@
 		DF77FD34CD63ED3379155335 /* Pods-PobbyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PobbyTests.debug.xcconfig"; path = "Target Support Files/Pods-PobbyTests/Pods-PobbyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FABF9DBC613654D79B0FF810 /* Pods-Pobby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pobby.release.xcconfig"; path = "Target Support Files/Pods-Pobby/Pods-Pobby.release.xcconfig"; sourceTree = "<group>"; };
 		FC02B26A2547EEA200F494C1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FC0951A8258F3555000C2905 /* boardDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardDetailVC.swift; sourceTree = "<group>"; };
 		FC0D5F462548582F003EEEF0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		FC0D5F5525486EB1003EEEF0 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirebaseAuthManager.swift; path = Pobby/Model/FirebaseAuthManager.swift; sourceTree = SOURCE_ROOT; };
 		FC3804F82539B3F4009082F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FC571BA6259049240060F7BF /* insertboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insertboardVC.swift; sourceTree = "<group>"; };
+		FC6794AF257B262200407A00 /* CommunityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityVC.swift; sourceTree = "<group>"; };
+		FC6794DA257B392100407A00 /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		FC6794DB257B392100407A00 /* LoadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		FC6794DE257B392100407A00 /* TableViewItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewItemCell.swift; sourceTree = "<group>"; };
+		FC6DA5B1258D049B00C8A694 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		FC74F7E5255E4CE7000E989D /* PetitionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionVC.swift; sourceTree = "<group>"; };
+		FC74F7EA255E5498000E989D /* PetitionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionCell.swift; sourceTree = "<group>"; };
+		FC74F7F0255E72BD000E989D /* PetitionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionModel.swift; sourceTree = "<group>"; };
+		FC74F7F8255E78BB000E989D /* WritePetitionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritePetitionVC.swift; sourceTree = "<group>"; };
 		FC7A1EB2255144AB009A47C7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FC7A1EBB25514C4F009A47C7 /* MypageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageViewController.swift; sourceTree = "<group>"; };
 		FC7A1EC6255151F7009A47C7 /* SetProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetProfileViewController.swift; sourceTree = "<group>"; };
-		FC7A1ECB25515222009A47C7 /* SetAdressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAdressViewController.swift; sourceTree = "<group>"; };
+		FC7A1ECB25515222009A47C7 /* welcometopobbyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcometopobbyVC.swift; sourceTree = "<group>"; };
+		FC86A846256CCF0600D37C21 /* broadcastingCollectionVcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = broadcastingCollectionVcell.swift; sourceTree = "<group>"; };
+		FC877BB425601F6B004BD7EB /* PetitionDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetitionDetailVC.swift; sourceTree = "<group>"; };
 		FC961BCA254BB93A006F1AE8 /* NanumSquareRoundL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundL.ttf; sourceTree = "<group>"; };
 		FC961BCB254BB93A006F1AE8 /* NanumSquareRoundB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundB.ttf; sourceTree = "<group>"; };
 		FC961BCC254BB93A006F1AE8 /* NanumSquareRoundEB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundEB.ttf; sourceTree = "<group>"; };
 		FC961BCD254BB93A006F1AE8 /* NanumSquareRoundR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRoundR.ttf; sourceTree = "<group>"; };
 		FC961BCE254BB97C006F1AE8 /* Cafe24Ohsquareair.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cafe24Ohsquareair.ttf; sourceTree = "<group>"; };
 		FC961BEB254C1DBD006F1AE8 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		FCC2D9FC254FAD02006E5ABD /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		FC9B92A5258DBDCE00207DB8 /* boardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardModel.swift; sourceTree = "<group>"; };
+		FC9B92AD258DE3E900207DB8 /* ticketingDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticketingDetailVC.swift; sourceTree = "<group>"; };
+		FC9B92B2258DEACD00207DB8 /* broadcastDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = broadcastDetailVC.swift; sourceTree = "<group>"; };
+		FC9B92B7258DF2F400207DB8 /* signedPopUPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signedPopUPVC.swift; sourceTree = "<group>"; };
+		FC9B92DA258E19FB00207DB8 /* bestboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestboardCell.swift; sourceTree = "<group>"; };
+		FC9B92DF258E1A1B00207DB8 /* bestpetitionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestpetitionCell.swift; sourceTree = "<group>"; };
+		FCA27721255A772C0042AB47 /* NanumSquareLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareLight.ttf; sourceTree = "<group>"; };
+		FCA27722255A772C0042AB47 /* NanumSquareExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareExtraBold.ttf; sourceTree = "<group>"; };
+		FCA27723255A772C0042AB47 /* NanumSquareBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareBold.ttf; sourceTree = "<group>"; };
+		FCA27724255A772C0042AB47 /* NanumSquareRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareRegular.ttf; sourceTree = "<group>"; };
+		FCA27763255A81300042AB47 /* ticketingCollectionVcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticketingCollectionVcell.swift; sourceTree = "<group>"; };
+		FCC2D9FC254FAD02006E5ABD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FCC9C852257A573000A7B02C /* bannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		FCDBB209258FBA3700AE453C /* commentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentCell.swift; sourceTree = "<group>"; };
 		FCEF1F9A2539B2A8009101C0 /* Pobby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pobby.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEF1F9D2539B2A8009101C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCEF1F9F2539B2A8009101C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +141,10 @@
 		FCEF1FBB2539B2A9009101C0 /* PobbyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PobbyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEF1FBF2539B2A9009101C0 /* PobbyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PobbyUITests.swift; sourceTree = "<group>"; };
 		FCEF1FC12539B2A9009101C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF8C66F2590C525009B290E /* myboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myboardVC.swift; sourceTree = "<group>"; };
+		FCF8C6742590C531009B290E /* mycommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mycommentVC.swift; sourceTree = "<group>"; };
+		FCF8C6812590C9ED009B290E /* mycommnetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mycommnetCell.swift; sourceTree = "<group>"; };
+		FCF8C6862590F354009B290E /* editProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,11 +202,13 @@
 			isa = PBXGroup;
 			children = (
 				FC02B26A2547EEA200F494C1 /* WelcomeViewController.swift */,
-				FC12614825503F640032458A /* Signup */,
-				FC7A1EB025514435009A47C7 /* home */,
-				FC7A1EBA25514C36009A47C7 /* Mypage */,
 				FC0D5F462548582F003EEEF0 /* LoginViewController.swift */,
 				FCEF1FA12539B2A8009101C0 /* TabBarViewController.swift */,
+				FC7A1EB025514435009A47C7 /* home */,
+				FC6794B4257B262D00407A00 /* Community */,
+				FCA27768255A8C210042AB47 /* petition */,
+				FC12614825503F640032458A /* Signup */,
+				FC7A1EBA25514C36009A47C7 /* Mypage */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -162,15 +218,46 @@
 			children = (
 				FC961BEB254C1DBD006F1AE8 /* SignupViewController.swift */,
 				FC7A1EC6255151F7009A47C7 /* SetProfileViewController.swift */,
-				FC7A1ECB25515222009A47C7 /* SetAdressViewController.swift */,
+				FC7A1ECB25515222009A47C7 /* welcometopobbyVC.swift */,
 			);
 			path = Signup;
+			sourceTree = "<group>";
+		};
+		FC6794B4257B262D00407A00 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				FC6794D9257B392100407A00 /* LoadingCell */,
+				FC6794AF257B262200407A00 /* CommunityVC.swift */,
+				FC6794DE257B392100407A00 /* TableViewItemCell.swift */,
+				FCDBB209258FBA3700AE453C /* commentCell.swift */,
+				FC0951A8258F3555000C2905 /* boardDetailVC.swift */,
+				FC9B92A5258DBDCE00207DB8 /* boardModel.swift */,
+				FC571BA6259049240060F7BF /* insertboardVC.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		FC6794D9257B392100407A00 /* LoadingCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC6794DA257B392100407A00 /* LoadingCell.xib */,
+				FC6794DB257B392100407A00 /* LoadingCell.swift */,
+			);
+			path = LoadingCell;
 			sourceTree = "<group>";
 		};
 		FC7A1EB025514435009A47C7 /* home */ = {
 			isa = PBXGroup;
 			children = (
 				FC7A1EB2255144AB009A47C7 /* HomeViewController.swift */,
+				FC6DA5B1258D049B00C8A694 /* HomeModel.swift */,
+				FCC9C852257A573000A7B02C /* bannerCollectionViewCell.swift */,
+				FCA27763255A81300042AB47 /* ticketingCollectionVcell.swift */,
+				FC86A846256CCF0600D37C21 /* broadcastingCollectionVcell.swift */,
+				FC9B92DF258E1A1B00207DB8 /* bestpetitionCell.swift */,
+				FC9B92DA258E19FB00207DB8 /* bestboardCell.swift */,
+				FC9B92AD258DE3E900207DB8 /* ticketingDetailVC.swift */,
+				FC9B92B2258DEACD00207DB8 /* broadcastDetailVC.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -179,6 +266,10 @@
 			isa = PBXGroup;
 			children = (
 				FC7A1EBB25514C4F009A47C7 /* MypageViewController.swift */,
+				FCF8C6862590F354009B290E /* editProfileVC.swift */,
+				FCF8C6812590C9ED009B290E /* mycommnetCell.swift */,
+				FCF8C6742590C531009B290E /* mycommentVC.swift */,
+				FCF8C66F2590C525009B290E /* myboardVC.swift */,
 			);
 			path = Mypage;
 			sourceTree = "<group>";
@@ -191,15 +282,31 @@
 				FC961BCC254BB93A006F1AE8 /* NanumSquareRoundEB.ttf */,
 				FC961BCA254BB93A006F1AE8 /* NanumSquareRoundL.ttf */,
 				FC961BCD254BB93A006F1AE8 /* NanumSquareRoundR.ttf */,
+				FCA27723255A772C0042AB47 /* NanumSquareBold.ttf */,
+				FCA27722255A772C0042AB47 /* NanumSquareExtraBold.ttf */,
+				FCA27721255A772C0042AB47 /* NanumSquareLight.ttf */,
+				FCA27724255A772C0042AB47 /* NanumSquareRegular.ttf */,
 			);
 			name = Font;
+			sourceTree = "<group>";
+		};
+		FCA27768255A8C210042AB47 /* petition */ = {
+			isa = PBXGroup;
+			children = (
+				FC74F7E5255E4CE7000E989D /* PetitionVC.swift */,
+				FC74F7F0255E72BD000E989D /* PetitionModel.swift */,
+				FC877BB425601F6B004BD7EB /* PetitionDetailVC.swift */,
+				FC74F7EA255E5498000E989D /* PetitionCell.swift */,
+				FC9B92B7258DF2F400207DB8 /* signedPopUPVC.swift */,
+				FC74F7F8255E78BB000E989D /* WritePetitionVC.swift */,
+			);
+			path = petition;
 			sourceTree = "<group>";
 		};
 		FCC2D9FB254FACCD006E5ABD /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FCC2D9FC254FAD02006E5ABD /* UserProfile.swift */,
-				FC0D5F5525486EB1003EEEF0 /* FirebaseAuthManager.swift */,
+				FCC2D9FC254FAD02006E5ABD /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -377,6 +484,7 @@
 				FC961BDC254BBAAE006F1AE8 /* NanumSquareRoundR.ttf in Resources */,
 				FC961BD8254BBAAC006F1AE8 /* NanumSquareRoundL.ttf in Resources */,
 				FCEF1FA52539B2A8009101C0 /* Main.storyboard in Resources */,
+				FC6794DF257B392100407A00 /* LoadingCell.xib in Resources */,
 				FC961BD3254BBAA8006F1AE8 /* NanumSquareRoundB.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,17 +613,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0D5F5625486EB1003EEEF0 /* FirebaseAuthManager.swift in Sources */,
+				FC0951A9258F3555000C2905 /* boardDetailVC.swift in Sources */,
+				FC74F7E6255E4CE7000E989D /* PetitionVC.swift in Sources */,
+				FC9B92AE258DE3E900207DB8 /* ticketingDetailVC.swift in Sources */,
+				FC74F7F9255E78BB000E989D /* WritePetitionVC.swift in Sources */,
+				FC571BA7259049240060F7BF /* insertboardVC.swift in Sources */,
 				FC961BEC254C1DBD006F1AE8 /* SignupViewController.swift in Sources */,
+				FCF8C6752590C531009B290E /* mycommentVC.swift in Sources */,
+				FCF8C6822590C9ED009B290E /* mycommnetCell.swift in Sources */,
+				FC9B92DB258E19FB00207DB8 /* bestboardCell.swift in Sources */,
+				FCDBB20A258FBA3700AE453C /* commentCell.swift in Sources */,
+				FC6794B0257B262200407A00 /* CommunityVC.swift in Sources */,
+				FC9B92A6258DBDCE00207DB8 /* boardModel.swift in Sources */,
+				FC9B92E0258E1A1B00207DB8 /* bestpetitionCell.swift in Sources */,
+				FC86A847256CCF0600D37C21 /* broadcastingCollectionVcell.swift in Sources */,
+				FCC9C853257A573000A7B02C /* bannerCollectionViewCell.swift in Sources */,
 				FCEF1FA22539B2A8009101C0 /* TabBarViewController.swift in Sources */,
+				FC74F7EB255E5498000E989D /* PetitionCell.swift in Sources */,
 				FC02B26B2547EEA200F494C1 /* WelcomeViewController.swift in Sources */,
+				FCF8C6872590F354009B290E /* editProfileVC.swift in Sources */,
 				FC7A1EB3255144AB009A47C7 /* HomeViewController.swift in Sources */,
-				FCC2D9FD254FAD02006E5ABD /* UserProfile.swift in Sources */,
+				FCC2D9FD254FAD02006E5ABD /* User.swift in Sources */,
 				FCEF1F9E2539B2A8009101C0 /* AppDelegate.swift in Sources */,
 				FC0D5F472548582F003EEEF0 /* LoginViewController.swift in Sources */,
+				FC877BB525601F6B004BD7EB /* PetitionDetailVC.swift in Sources */,
+				FC6794E2257B392100407A00 /* TableViewItemCell.swift in Sources */,
 				FC7A1EC7255151F7009A47C7 /* SetProfileViewController.swift in Sources */,
-				FC7A1ECC25515222009A47C7 /* SetAdressViewController.swift in Sources */,
+				FC74F7F1255E72BD000E989D /* PetitionModel.swift in Sources */,
+				FCF8C6702590C525009B290E /* myboardVC.swift in Sources */,
+				FCA27764255A81300042AB47 /* ticketingCollectionVcell.swift in Sources */,
+				FC7A1ECC25515222009A47C7 /* welcometopobbyVC.swift in Sources */,
+				FC6DA5B2258D049B00C8A694 /* HomeModel.swift in Sources */,
+				FC6794E0257B392100407A00 /* LoadingCell.swift in Sources */,
+				FC9B92B3258DEACD00207DB8 /* broadcastDetailVC.swift in Sources */,
 				FCEF1FA02539B2A8009101C0 /* SceneDelegate.swift in Sources */,
+				FC9B92B8258DF2F400207DB8 /* signedPopUPVC.swift in Sources */,
 				FC7A1EBC25514C4F009A47C7 /* MypageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -629,6 +761,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -683,6 +816,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

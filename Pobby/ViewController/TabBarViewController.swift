@@ -10,17 +10,17 @@ import Firebase
 
 class TabBarController: UITabBarController {
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-        if let user = Auth.auth().currentUser {
-        } else {
-            performSegue(withIdentifier: "Login", sender: self)
-
-        }
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
     }
     
 }

@@ -9,12 +9,12 @@ import UIKit
 import Firebase
 import FirebaseFirestore
 
-
 @main
 
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
-
+    var window: UIWindow?
+    var storyboard: UIStoryboard?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -24,11 +24,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print(db) // silence warning
 
         Thread.sleep(forTimeInterval: 1.5) //스플래쉬 딜레이
-        
+    
         return true
     }
 
     // MARK: UISceneSession Lifecycle
+    
+    
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.

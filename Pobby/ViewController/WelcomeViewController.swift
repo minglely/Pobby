@@ -27,6 +27,8 @@ class WelcomeViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLayoutSubviews() {
         scrollWidth = scrollView.frame.size.width
         scrollHeight = scrollView.frame.size.height
+        startPobby.layer.cornerRadius = 20
+
     }
     
     override func viewDidLoad() {

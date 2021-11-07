@@ -25,6 +25,10 @@
 		<string>NanumSquareRoundEB</string>
 		<string>NanumSquareRoundL</string>
 		<string>NanumSquareRoundR</string>
+		<string>NanumSquareBold</string>
+		<string>NanumSquareExtraBold</string>
+		<string>NanumSquareLight</string>
+		<string>NanumSquareRegular</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
